@@ -5,7 +5,7 @@ import Login from "./pages/auth/Login";
 import Register from "./pages/auth/Register";
 const App = () => {
   return (
-    <div>
+    <div className="flex flex-col bg-white overflow-hidden">
       <Routes>
         <Route path="/auth" element={<AuthLayout />}>
           <Route path="login" element={<Login />} />
